@@ -1,3 +1,8 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
 # Teamwork Contract for Group 6
 
 This is a teamwork contract for **group 6** of *STAT 545A* collabrative project. This document contains our aims and plans of the project to establish our expectations and get the team on the same page.
