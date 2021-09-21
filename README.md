@@ -6,8 +6,8 @@ This is the private repository of **group 6** for their collaborative project as
 | ------------- | ------------- | ------------- | ------------- |
 | Eve Chen | Bioinformatics | Flow Cytometry Bioinformatics | @eve-chen97 | 
 | Ekpereka Amutaigwe  |  |  | @eamutaigwe | 
-| Maira Jimenez |  |  | @ | 
-| Sudha Kotapalli |  |  | @ | 
+| Sudha Kotapalli |  |  | @sudhaubc | 
+| Maira Jimenez |  |  | @maira1220 | 
 
 ### What is this project?
 ### What files are in the project folder / GitHub repository, at a high level?
