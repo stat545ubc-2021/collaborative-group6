@@ -35,33 +35,33 @@ Teamwork Contract for Group 6
 
 - [ ] **Exercise 4: GitHub Issues** 
 
-  - Introduce ourselves in Github Issues and tag our team members (Sep 21 - Sep 22)
+  - ~~Introduce ourselves in Github Issues and tag our team members~~ (Sep 21 - Sep 22)
   
   - Respond to everyone’s introduction Issue (Sep 22)
 
 - [ ] **Exercise 5: Teamwork Contract** 
   
-  - ~~Initial draft of `TEAMWORK.md`~~ (*Eve*, Sep 21)
+  - ~~Initial draft of `TEAMWORK.md`~~ (*Eve*, Sep 21 - Sep 22)
   
   - Check of formatting and timely update the file with newly discussed contents and progress (*Maira*, Sep 23)
 
 - [ ] **Exercise 6: Troubleshooting document**
 
-  - Fix all 3 errors in the `troubleshooting-1.Rmd` document, and generate a markdown file (*Ekpereka*, Sep 22)
+  - Fix all 3 errors in the `troubleshooting-1.Rmd` document, and generate a markdown file (*Ekpereka*, Sep 21 - Sep 22)
   
   - Test of correctness (*Maira*, Sep 23)
 
 - [ ] **Exercise 7: README file**
 
-  - Initial draft of `README.md` (*Sudha*, Sep 22)
+  - Initial draft of `README.md` (*Sudha*, Sep 21 - Sep 22)
   
   - Check of formatting and modifications of details (*Maira*, Sep 23)
 
 - [ ] **Exercise 3: Merge one Pull Request per teammate**
 
-  - Creation of a complete set of pull requests with kicking off comments (Sep 23)
+  - Creation of a complete set of pull requests with kicking off comments (Sep 21 - Sep 23)
   
-  - Successful merging of a complete set of pull requests with follow-up comments from reviewers (Sep 24)
+  - Successful merging of a complete set of pull requests with follow-up comments from reviewers (Sep 22- Sep 24)
 
 - [ ] **Exercise 8: Submitting this Milestone**
 
