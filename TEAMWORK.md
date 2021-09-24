@@ -1,8 +1,8 @@
-Teamwork Contract for Group 6
+Teamwork Contract for Group 6 📚
 ================
-**Team members**: Eve Chen, Ekpereka Amutaigwe, Maira Jimenez, Sudha Kotapalli
+**Team members** 👩‍👩‍👧‍👧 : Eve Chen, Ekpereka Amutaigwe, Maira Jimenez, Sudha Kotapalli
 
-**Date**: 2021/9/21
+**Date** 📆 : 2021/9/21
 
 **Description**: This is a teamwork contract for group 6 of *STAT 545A* collabrative project. This document contains our aims and plans of the project to establish our expectations and get the team on the same page.
 
@@ -17,7 +17,7 @@ Teamwork Contract for Group 6
 | Sudha Kotapalli | @sudhaubc | Initial draft of a brief description of the repository and project in [`README.md`](https://github.com/stat545ubc-2021/collaborative-group6/blob/main/README.md) | Maira Jimenez | 
 | Maira Jimenez | @maira1220 | Revisit and modify all the files with details discussed; Submission of milestone 1 by tagging a release and submitting the link | Eve Chen | 
 
-## Timing
+## Timing ⏰
 
 #### Milestone 1 (Sep 16 - Sep 25)
 
@@ -65,11 +65,11 @@ Teamwork Contract for Group 6
 
 - [ ] **Exercise 8: Submitting this Milestone**
 
-  - Tag a release on the GitHub repository upon completion (*Maira*, Sep 25)
+  - Tag a release on the GitHub repository upon completion (*Maira*, Sep 24)
   
-  - Add a link to the release on canvas as a submission on Milestone 1 (*Maira*, Sep 25)
+  - Add a link to the release on canvas as a submission on Milestone 1 (*Maira*, Sep 24)
 
-## Communication
+## Communication 🔮
 
 - **Slack**: For trivial discussions and meeting scheduling. Prompt replies expected.
 
