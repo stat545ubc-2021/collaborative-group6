@@ -13,7 +13,7 @@ Teamwork Contract for Group 6 📚
 | Name | GitHub ID | Job Assignments | Pull request reviewer | 
 | --- | --- | --------- | ---- |
 | Eve Chen | @eve-chen97 | GitHub repository setup; Initial draft of the teamwork contract [`TEAMWORK.md`](https://github.com/stat545ubc-2021/collaborative-group6/blob/main/TEAMWORK.md) | Ekpereka Amutaigwe | 
-| Ekpereka Amutaigwe | @eamutaigwe | Troubleshoot of the exercise document [`troubleshooting-1.Rmd`]() ; Knit the fixed document to a markdown file [`troubleshooting-1.md`]() | Sudha Kotapalli | 
+| Ekpereka Amutaigwe | @eamutaigwe | Troubleshoot of the exercise document [`troubleshooting-1.Rmd`](https://github.com/stat545ubc-2021/collaborative-group6/blob/main/troubleshooting-1.rmd) ; Knit the fixed document to a markdown file [`troubleshooting-1.md`](https://github.com/stat545ubc-2021/collaborative-group6/blob/main/troubleshooting-1.md) | Sudha Kotapalli | 
 | Sudha Kotapalli | @sudhaubc | Initial draft of a brief description of the repository and project in [`README.md`](https://github.com/stat545ubc-2021/collaborative-group6/blob/main/README.md) | Maira Jimenez | 
 | Maira Jimenez | @maira1220 | Revisit and modify all the files with details discussed; Submission of milestone 1 by tagging a release and submitting the link | Eve Chen | 
 
@@ -23,47 +23,47 @@ Teamwork Contract for Group 6 📚
 
 - [x] **Exercise 1: Getting Setup** 
 
-  - ~~Getting contact with each other~~ (Sep 16)
+  - <del>Getting contact with each other</del> (Sep 16)
   
-  - ~~Creating a group repository on GitHub, then adding all the teammates as collaborators~~ (*Eve*, Sep 17)
+  - ~Creating a group repository on GitHub, then adding all the teammates as collaborators~ (*Eve*, Sep 17)
   
-- [ ] **Group discussions of the project Milestone 1**
+- [x] **Group discussions of the project Milestone 1**
 
   - ~~First online meeting about project plans, division of labour and expected time of action~~ (Sep 21)
   
-  - Review and discussion on before final delivery (Sep 24)
+  - ~~Review and discussion on before final delivery~~ (Sep 24)
 
-- [ ] **Exercise 4: GitHub Issues** 
+- [x] **Exercise 4: GitHub Issues** 
 
   - ~~Introduce ourselves in Github Issues and tag our team members~~ (Sep 21 - Sep 22)
   
-  - Respond to everyone’s introduction Issue (Sep 22)
+  - ~~Respond to everyone’s introduction Issue~~ (Sep 22)
 
-- [ ] **Exercise 5: Teamwork Contract** 
+- [x] **Exercise 5: Teamwork Contract** 
   
   - ~~Initial draft of `TEAMWORK.md`~~ (*Eve*, Sep 21 - Sep 22)
   
-  - Check of formatting and timely update the file with newly discussed contents and progress (*Maira*, Sep 23)
+  - ~~Check of formatting and timely update the file with newly discussed contents and progress~~ (*Maira*, Sep 23)
 
-- [ ] **Exercise 6: Troubleshooting document**
+- [x] **Exercise 6: Troubleshooting document**
 
-  - Fix all 3 errors in the `troubleshooting-1.Rmd` document, and generate a markdown file (*Ekpereka*, Sep 21 - Sep 22)
+  - ~~Fix all 3 errors in the `troubleshooting-1.Rmd` document, and generate a markdown file~~ (*Ekpereka*, Sep 21 - Sep 22)
   
-  - Test of correctness (*Maira*, Sep 23)
+  - ~~Test of correctness~~ (*Maira*, Sep 23)
 
-- [ ] **Exercise 7: README file**
+- [x] **Exercise 7: README file**
 
-  - Initial draft of `README.md` (*Sudha*, Sep 21 - Sep 22)
+  - ~~Initial draft of `README.md`~~ (*Sudha*, Sep 21 - Sep 22)
   
-  - Check of formatting and modifications of details (*Maira*, Sep 23)
+  - ~~Check of formatting and modifications of details~~ (*Maira*, Sep 23)
 
-- [ ] **Exercise 3: Merge one Pull Request per teammate**
+- [x] **Exercise 3: Merge one Pull Request per teammate**
 
-  - Creation of a complete set of pull requests with kicking off comments (Sep 21 - Sep 23)
+  - ~~Creation of a complete set of pull requests with kicking off comments~~ (Sep 21 - Sep 23)
   
-  - Successful merging of a complete set of pull requests with follow-up comments from reviewers (Sep 22- Sep 24)
+  - ~~Successful merging of a complete set of pull requests with follow-up comments from reviewers~~ (Sep 22- Sep 24)
 
-- [ ] **Exercise 8: Submitting this Milestone**
+- [x] **Exercise 8: Submitting this Milestone**
 
   - Tag a release on the GitHub repository upon completion (*Maira*, Sep 24)
   
