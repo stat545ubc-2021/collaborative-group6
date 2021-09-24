@@ -3,7 +3,7 @@
 💻**Overview** 💻
  
 Milestone 1 is collaborative project which is an essential part part of the course and a learning tool.
-The aim is to create a Git repository file and collaborate with teammates to work on the Git workflow. To efficiently complete this project, teammates will delegate tasks to each other. The discussion about project files will be done by writing Git issues. Each member will be mention another member in the issue so that it gets reviewed easily (for eg: issue raised by Sudha will be reviewed by @maira1220)
+The aim is to create a GitHub repository and collaborate with teammates to work on the GitHub workflow. To efficiently complete this project, teammates will delegate tasks to each other. The discussion about project files will be done by writing GitHub issues. Each member will mention another member in the issue so that it gets reviewed easily (for eg: issue raised by Sudha will be reviewed by @maira1220)
 
 |📁**Files in the repository**📂| 👧Teammates👧|
 |:------:|:-----:|
