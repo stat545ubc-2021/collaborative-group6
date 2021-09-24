@@ -1,4 +1,4 @@
----
+
 **Milestone 1**
 
 *Overview*
@@ -33,6 +33,5 @@ Troubleshooting-1.rmd: The errors in the code are troubleshooted and the fixed c
 - [x] Exercise 6: Troubleshooting code and knitting it to a md file.
 - [x] Exercise 7: Readme.md file for an overview and description of the project
 - [x] Exercise 8: Editing the files and submission.
-
 
 
