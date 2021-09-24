@@ -69,7 +69,7 @@ Teamwork Contract for Group 6 📚
   
   - Add a link to the release on canvas as a submission on Milestone 1 (*Maira*, Sep 24)
 
-## Communication 🔮
+## Communication 🗣️
 
 - **Slack**: For trivial discussions and meeting scheduling. Prompt replies expected.
 
@@ -77,7 +77,9 @@ Teamwork Contract for Group 6 📚
 
 - **Github Issues**: Major discussions regarding the project that deserve some permanence and reference, including but not limited to:
 
-  1. Troubleshooting of problems regarding project milestones
+  1. Self Introduction (See Issues #1, #2, #5 and #6)
+  
+  3. Troubleshooting of problems regarding project milestones
   
   2. Ideas and suggestions of the project files
   
