@@ -18,10 +18,6 @@ Note that errors are not all syntactic (i.e., broken code)! Some are logical err
 
 ```{r}
 ### ERROR FIXED ###
-# Load packages with library()
-# We can choose to use install.packages() if packages are not installed, but no need to keep in Rmarkdown and knit with them. For example:
-# install.packages(c('dslabs', 'stringr', 'gapminder') 
-# devtools::install_github("JoeyBernhardt/singer")
 library(dslabs)
 library(singer)
 library(tidyverse)
@@ -36,10 +32,10 @@ Let's have a look at the dataset! My goal is to:
 + Have a quick look at the tibble, using a *dplyr function*.
 
 ```{r}
-### ERROR HERE ###
+### ERROR FIXED ###
 class(dslabs::movielens)
 movieLens <- as_tibble(dslabs::movielens)
-dim(movieLens)
+dplyr::glimpse(movieLens)
 ```
 
 Now that we've had a quick look at the dataset, it would be interesting to explore the rows (observations) in some more detail. I'd like to consider the movie entries that...
@@ -52,11 +48,11 @@ Now that we've had a quick look at the dataset, it would be interesting to explo
 + have *more than* 4.5 stars, and were released *before* 1995.
 
 ```{r}
-### ERROR HERE ###
+### ERROR FIXED ###
 filter(movieLens, genres == "Drama")
 filter(movieLens, !genres == "Drama")
 filter(movieLens, year >= 2000)
-filter(movieLens, year == 1999 | month == 2000)
+filter(movieLens, year == 1999 | year == 2000)
 filter(movieLens, title %in% "Little Women")
 filter(movieLens, rating > 4.5, year < 1995)
 ```
