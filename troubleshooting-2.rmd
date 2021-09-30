@@ -136,7 +136,7 @@ Using `summarize()`, we can find the minimum and the maximum rating by title, st
 ### ERROR FIXED ###
 movieLens %>%
   group_by(title) %>%
-  mutate(min_rating = min(rating), 
+  summarise(min_rating = min(rating), 
          max_rating = max(rating))
 ```
 
