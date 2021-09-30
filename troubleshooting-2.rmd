@@ -133,8 +133,9 @@ movieLens %>%
 Using `summarize()`, we can find the minimum and the maximum rating by title, stored under columns named `min_rating`, and `max_rating`, respectively. 
 
 ```{r}
-### ERROR HERE ###
+### ERROR FIXED ###
 movieLens %>%
+  group_by(title) %>%
   mutate(min_rating = min(rating), 
          max_rating = max(rating))
 ```
