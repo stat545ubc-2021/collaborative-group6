@@ -105,9 +105,9 @@ movieLens %>%
 Without using `group_by()`, I want to find out how many movie reviews there have been for each year.
 
 ```{r}
-### ERROR HERE ###
+### ERROR FIXED ###
 movieLens %>%
-  tally(year)
+  count(year)
 ```
 
 Both `count()` and `tally()` can be grouped by multiple columns. Below, I want to count the number of movie reviews by title and rating, and sort the results.
