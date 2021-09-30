@@ -83,7 +83,7 @@ As you already know, `mutate()` defines and inserts new variables into a tibble.
 
 ```{r}
 ### ERROR FIXED ### 
-summarize(movieLens,
+transmute(movieLens,
        average_rating = mean(rating))
 ```
 
