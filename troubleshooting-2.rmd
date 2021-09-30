@@ -18,6 +18,7 @@ Note that errors are not all syntactic (i.e., broken code)! Some are logical err
 
 ```{r}
 ### ERROR FIXED ###
+# Load packages with library() after installing them
 library(dslabs)
 library(singer)
 library(tidyverse)
@@ -51,7 +52,7 @@ Now that we've had a quick look at the dataset, it would be interesting to explo
 ### ERROR FIXED ###
 filter(movieLens, genres == "Drama")
 filter(movieLens, !genres == "Drama")
-filter(movieLens, year >= 2000)
+filter(movieLens, year > 2000)
 filter(movieLens, year == 1999 | year == 2000)
 filter(movieLens, title %in% "Little Women")
 filter(movieLens, rating > 4.5, year < 1995)
