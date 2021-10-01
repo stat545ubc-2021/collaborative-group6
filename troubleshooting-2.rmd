@@ -162,8 +162,8 @@ We can find the minimum height and weight within each species:
 ### ERROR FIXED ###
 starWars %>%
   group_by(species) %>%
-  summarise(across(c(height, mass), min)) %>%
-  drop_na()
+  drop_na()%>%
+  summarise(across(c(height, mass), min))
 ```
 
 
