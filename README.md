@@ -16,7 +16,7 @@ As part of Milestone-2, a R markdown document with a broken R code was fixed. Th
 [troubleshooting-1.md](https://github.com/stat545ubc-2021/collaborative-group6/blob/main/troubleshooting-1.md) and [troubleshooting-1.rmd](https://github.com/stat545ubc-2021/collaborative-group6/blob/main/troubleshooting-1.rmd): The errors in the code are troubleshooted and the fixed code is knitted to a md file.|**Ekpereka Amutaigwe** @eamutaigwe
 |[README.md](https://github.com/stat545ubc-2021/collaborative-group6/blob/main/README.md): Project overview and files|**Sudha Kotapalli** @Sudhaubc
 |Editing and submission|**Maira Jimenez** @maira1220
-|[https://github.com/stat545ubc-2021/collaborative-group6/blob/main/troubleshooting-2.rmd]: The errors in the code are troubleshooted and the fixed code is knitted to a md file|**Collaborative effort**
+|[troubleshooting-2.rmd](https://github.com/stat545ubc-2021/collaborative-group6/blob/main/troubleshooting-2.rmd): The errors in the code are troubleshooted and the fixed code is knitted to a md file|**Collaborative effort**
 
 **Instruction on how to use the code that appears in this folder / GitHub repository.**
 - [x]  `.md` files : The markdown files can be read and edited with a normal text editor.
