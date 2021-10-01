@@ -105,17 +105,17 @@ movieLens %>%
 Without using `group_by()`, I want to find out how many movie reviews there have been for each year.
 
 ```{r}
-### ERROR HERE ###
+### ERROR FIXED ###
 movieLens %>%
-  tally(year)
+  count(year)
 ```
 
 Both `count()` and `tally()` can be grouped by multiple columns. Below, I want to count the number of movie reviews by title and rating, and sort the results.
 
 ```{r}
-### ERROR HERE ###
+### ERROR FIXED ###
 movieLens %>%
-  count(c(title, rating), sort = TRUE)
+  count(title, rating, sort = TRUE)
 ```
 
 Not only do `count()` and `tally()` quickly allow you to count items within your dataset, `add_tally()` and `add_count()` are handy shortcuts that add an additional columns to your tibble, rather than collapsing each group. 
@@ -133,9 +133,10 @@ movieLens %>%
 Using `summarize()`, we can find the minimum and the maximum rating by title, stored under columns named `min_rating`, and `max_rating`, respectively. 
 
 ```{r}
-### ERROR HERE ###
+### ERROR FIXED ###
 movieLens %>%
-  mutate(min_rating = min(rating), 
+  group_by(title) %>%
+  summarise(min_rating = min(rating), 
          max_rating = max(rating))
 ```
 
