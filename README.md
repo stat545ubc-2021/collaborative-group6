@@ -1,3 +1,8 @@
+---
+output:
+  html_document: default
+  pdf_document: default
+---
 STAT 545A Collaborative Project - Group 6
 =================================
 
@@ -17,6 +22,7 @@ As part of Milestone-2, a R markdown document with a broken R code was fixed. Th
 |[README.md](https://github.com/stat545ubc-2021/collaborative-group6/blob/main/README.md): Project overview and files|**Sudha Kotapalli** @Sudhaubc
 |Editing and submission|**Maira Jimenez** @maira1220
 |[troubleshooting-2.rmd](https://github.com/stat545ubc-2021/collaborative-group6/blob/main/troubleshooting-2.rmd): As part of Milestone-2, code chunk errors in an R markdown document were fixed and the document knitted to an md file.|**Collaborative effort**
+|[troubleshooting-2.md](https://github.com/stat545ubc-2021/collaborative-group6/blob/main/troubleshooting-2.rmd): The erros in the Rmarkdown file were corrected and knit into a Markdown file| **Collaborative effort**
 
 **Instruction on how to use the code that appears in this folder / GitHub repository.**
 - [x]  `.md` files : The markdown files can be read and edited with a normal text editor.
