@@ -243,7 +243,7 @@ movieLens %>%
 
 Some of the variables in the `movieLens` dataset are in *camelCase* (in
 fact, *movieLens* is in camelCase). Let’s clean these two variables to
-use *snake\_case* instead, and assign our post-rename object back to
+use *snake_case* instead, and assign our post-rename object back to
 “movieLens”.
 
 ``` r
@@ -401,7 +401,7 @@ respectively.
 ### ERROR FIXED ###
 movieLens %>%
   group_by(title) %>%
-  summarise(min_rating = min(rating), 
+  summarize(min_rating = min(rating), 
          max_rating = max(rating))
 ```
 
@@ -493,15 +493,16 @@ Manually create a tibble with 4 columns:
 ``` r
 ### ERROR FIXED ###
 fakeStarWars <-tribble(  
-  ~name,            ~birth_year,  ~birth_weight,      ~birth_location,
-  "Luke Skywalker" ,     1998    ,      1.35    ,    "Liverpool,England",
-  "C-3PO"          ,     1999    ,      1.80    ,    "Liverpool,England",
-  "R2-D2"          ,     2000    ,      2.25    ,    "Seattle,WA",
-  "Darth Vader"    ,     2001    ,      2.70    ,    "Liverpool,England",
-  "Leia Organa"    ,     2002    ,      3.15    ,    "New York, NY",
-  "Owen Lars"      ,     2003    ,      3.60    ,    "Seattle,WA",
-  "Beru Whitesun Iars",  2004    ,      4.05   ,     "Liverpool,England",
-  "R5-D4"         ,      2005    ,      4.50     ,   "New York, NY")
+  ~name,                ~birth_year,  ~birth_weight,  ~birth_location,
+  "Luke Skywalker",     1998,         1.35,           "Liverpool, England",
+  "C-3PO",              1999,         1.80,           "Liverpool, England",
+  "R2-D2",              2000,         2.25,           "Seattle, WA",
+  "Darth Vader",        2001,         2.70,           "Liverpool, England",
+  "Leia Organa",        2002,         3.15,           "New York, NY",
+  "Owen Lars",          2003,         3.60,           "Seattle, WA",
+  "Beru Whitesun Iars", 2004,         4.05,           "Liverpool, England",
+  "R5-D4",              2005,         4.50,           "New York, NY"
+  )
 ```
 
 ## Attributions
