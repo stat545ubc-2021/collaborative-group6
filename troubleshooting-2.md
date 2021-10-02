@@ -451,16 +451,35 @@ We can find the minimum height and weight within each species:
 ### ERROR FIXED ###
 starWars %>%
   group_by(species) %>%
-  drop_na()%>%
-  summarise(across(c(height, mass), min))
+  summarise(across(c(height, mass), ~min(.x, na.rm = T))) 
 ```
 
-    ## # A tibble: 3 × 3
-    ##   species height  mass
-    ##   <chr>    <int> <dbl>
-    ## 1 Human      170    77
-    ## 2 Wookiee    228   112
-    ## 3 Zabrak     175    80
+    ## Warning in min(mass, na.rm = T): no non-missing arguments to min; returning Inf
+
+    ## Warning in min(mass, na.rm = T): no non-missing arguments to min; returning Inf
+
+    ## Warning in min(mass, na.rm = T): no non-missing arguments to min; returning Inf
+
+    ## Warning in min(mass, na.rm = T): no non-missing arguments to min; returning Inf
+
+    ## Warning in min(mass, na.rm = T): no non-missing arguments to min; returning Inf
+
+    ## Warning in min(mass, na.rm = T): no non-missing arguments to min; returning Inf
+
+    ## # A tibble: 38 × 3
+    ##    species   height  mass
+    ##    <chr>      <int> <dbl>
+    ##  1 Aleena        79    15
+    ##  2 Besalisk     198   102
+    ##  3 Cerean       198    82
+    ##  4 Chagrian     196   Inf
+    ##  5 Clawdite     168    55
+    ##  6 Droid         96    32
+    ##  7 Dug          112    40
+    ##  8 Ewok          88    20
+    ##  9 Geonosian    183    80
+    ## 10 Gungan       196    66
+    ## # … with 28 more rows
 
 ## Exercise 6: Making tibbles
 
